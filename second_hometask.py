@@ -20,7 +20,6 @@ amount_in_dollar = all_money / bank_rate
 toyota_price = 31500
 toyota_quantity = amount_in_dollar // toyota_price
 toyota_quantity = int(toyota_quantity)
-print(toyota_quantity)
 
 final_statement = (
     f"Я, {user_name}, зможу заробити "
